@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FronEnd", "FronEnd", "{3D70CBE7-4569-4DE7-A005-3DA565FA342A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{5AAAB9C2-E79E-4CF3-80FC-0A9CEA905CAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{38335875-FBA0-41AA-9D36-32492CD40902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1B8A6DEC-06EB-47B5-A95E-641177600ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Green.Services.CouponAPI", "Green.Services.CouponAPI\Green.Services.CouponAPI.csproj", "{D018F941-77F0-42BB-8723-EDC50CCE996B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Green.Web", "Green.Web\Green.Web.csproj", "{4AA4A311-EE52-4810-8964-B7540C02A203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Green.Services.AuthAPI", "Green.Services.AuthAPI\Green.Services.AuthAPI.csproj", "{3EAED0E1-4D4B-4E19-BDAE-8FC0E3F437D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Green.Gateway", "Green.Gateway\Green.Gateway.csproj", "{E8CB8806-9EAC-4D5F-883D-4A6472029FE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D018F941-77F0-42BB-8723-EDC50CCE996B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D018F941-77F0-42BB-8723-EDC50CCE996B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D018F941-77F0-42BB-8723-EDC50CCE996B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D018F941-77F0-42BB-8723-EDC50CCE996B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA4A311-EE52-4810-8964-B7540C02A203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA4A311-EE52-4810-8964-B7540C02A203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA4A311-EE52-4810-8964-B7540C02A203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA4A311-EE52-4810-8964-B7540C02A203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAED0E1-4D4B-4E19-BDAE-8FC0E3F437D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAED0E1-4D4B-4E19-BDAE-8FC0E3F437D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAED0E1-4D4B-4E19-BDAE-8FC0E3F437D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAED0E1-4D4B-4E19-BDAE-8FC0E3F437D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CB8806-9EAC-4D5F-883D-4A6472029FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CB8806-9EAC-4D5F-883D-4A6472029FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CB8806-9EAC-4D5F-883D-4A6472029FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CB8806-9EAC-4D5F-883D-4A6472029FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCB3AD29-0000-409A-8293-681B4230C187}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D018F941-77F0-42BB-8723-EDC50CCE996B} = {1B8A6DEC-06EB-47B5-A95E-641177600ABE}
+		{4AA4A311-EE52-4810-8964-B7540C02A203} = {3D70CBE7-4569-4DE7-A005-3DA565FA342A}
+		{3EAED0E1-4D4B-4E19-BDAE-8FC0E3F437D0} = {1B8A6DEC-06EB-47B5-A95E-641177600ABE}
+		{E8CB8806-9EAC-4D5F-883D-4A6472029FE9} = {5AAAB9C2-E79E-4CF3-80FC-0A9CEA905CAC}
+	EndGlobalSection
+EndGlobal

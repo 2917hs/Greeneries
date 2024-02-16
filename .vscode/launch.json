@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "C#: Green.Services.AuthAPI [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Green.Services.AuthAPI/Green.Services.AuthAPI.csproj"
+        }
+    ]
+}
